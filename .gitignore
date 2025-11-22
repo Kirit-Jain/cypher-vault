@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Build outputs & Executables
+*.exe
+*.o
+vault_core
+
+# Data Stores (Never commit DBs)
+secure_store.dat
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
